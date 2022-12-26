@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    background-image: url(./assets/pattern.jpg);
+}
+nav {
+    display: flex;
+    background-color: #34a0a4;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+a {
+    text-decoration : none;
+    color: white;
+}
+
+a:hover {
+    background-color : red;
+}
+ 
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    margin-right: 10px;
+}
+
+main {
+    margin: 40px 150px 25px;
+    background-color: aliceblue;
+    border: 3px solid black;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    color: red;
+}
+
+h3:hover {
+    color: green;
+}
+
+h4 {
+    text-align: center;
+}
+
+h4:hover {
+    color:red;
+}
+
+article {
+    margin: 30px 50px 30px;
+    border-bottom: 3px solid black;
+}
+
+footer {
+    background-color: #34a0a4;
+    text-align: center;
+}
